@@ -52,7 +52,7 @@ echo -e "\033[36m#                 正在下载安装包，时间较长 请稍�
 echo -e "\033[36m#                                                                     #\033[0m"
 echo -e "\033[36m#######################################################################\033[0m"
 # 下载安装包
-git clone https://gitee.com/gz1903/lnmp_rpm.git /usr/local/src/lnmp_rpm
+git clone https://github.com/define9/lnmp_rpm.git /usr/local/src/lnmp_rpm
 cd /usr/local/src/lnmp_rpm
 # 安装nginx，mysql，php，redis
 echo -e "\033[36m下载完成，开始安装~\033[0m"
